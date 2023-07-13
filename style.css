@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #fafafa;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.img-celular{
+  width: 450px;
+}
+.container{
+  border: 1px solid rgb(133, 133, 133);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px;
+}
+input {
+  height: 36px;
+  border: 1px solid #9e9d9d;
+  border-radius: 3px;
+  margin-top: 10px;
+  
+}
+button{
+  background-color: #0095f6;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.facebook{
+  text-align: center;
+  color: #0968a7;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.esqueceu-snha{
+  text-align: center;
+  color: #0968a7;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.imagens{
+  position: relative;
+
+}
+.img-insta{
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 26px;
+  transition: 2s ease-in-out;
+}
